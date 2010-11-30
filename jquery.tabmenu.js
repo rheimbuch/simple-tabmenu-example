@@ -38,6 +38,7 @@
     // setup click events on all menu links
     menuLinks.each(function(){
       $(this).click(function(e){
+        // select this menu link
         selectMenuLink(this);
         // inhibit default event behavior
         e.preventDefault();
