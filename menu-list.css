@@ -10,3 +10,7 @@ ul.styled-menu li {
   /* Display list items in a single line */
   display: inline;
 }
+
+ul.styled-menu li a.active {
+  color: green;
+}
