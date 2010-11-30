@@ -37,10 +37,10 @@
     
     // setup click events on all menu links
     menuLinks.each(function(){
-      $(this).click(function(){
+      $(this).click(function(e){
         selectMenuLink(this);
-        // return false to halt click event processing
-        return false;
+        // inhibit default event behavior
+        e.preventDefault();
       });
     });
     
