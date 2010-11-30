@@ -12,7 +12,7 @@
     var targetFor = function(el) {
       var targetId = $(el).attr('href');
       return $(targetId);
-    }
+    };
     
     // Resolve the link targets to elements in the page
     var menuTargets = menuLinks.map(function(){
@@ -32,7 +32,7 @@
       
       // show the target for this link
       targetFor(el).show();
-    }
+    };
     
     
     // setup click events on all menu links
