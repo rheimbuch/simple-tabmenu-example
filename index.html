@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>jQuery Tab Menu</title>
+  <link rel="stylesheet" href="menu-list.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+      google.load("jquery", "1");
+  </script>
+  <script src="jquery.tabmenu.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $('#menu').tabMenu();
+    })
+  </script>
+</head>
+
+<body>
+  <ul id="menu" class="styled-menu">
+    <li><a href="#page1">Page 1</a></li>
+    <li><a href="#page2">Page 2</a></li>
+  </ul>
+  
+  <div id="page1">This is Page 1</div>
+  <div id="page2">This is Page 2</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ul.styled-menu {
+  /* Stip default margin + padding */
+  margin:0; padding:0;
+  list-style: none;
+}
+
+ul.styled-menu li {
+  /* Stip default margin + padding */
+  margin:0; padding:0;
+  /* Display list items in a single line */
+  display: inline;
+}
